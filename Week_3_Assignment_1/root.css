@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #FF900E;
+    --font-color: #727272;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+    header {
+        height: fit-content;
+    }
+
+    .banner {
+        height: 30vh;
+    }
+
+    .nav-bar {
+        width: 90%;
+        display: block;
+    }
+
+    .nav-bar div {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+
+    .page1 {
+        display: block;
+        padding: 0;
+        height: fit-content;
+        margin: 1rem 0;
+    }
+
+    .left-side {
+        width: 100%;
+    }
+
+    .pic {
+        margin-right: 0;
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .right-side {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .page2 {
+        height: fit-content;
+        display: block;
+        padding: 0;
+    }
+
+    .lefty {
+        width: 100%;
+    }
+
+    .righty {
+        width: 90%;
+        height: 50vh;
+        padding: 25rem 0 0 5rem;
+    }
+
+    .righty-box {
+        margin: 0;
+    }
+
+    .page3 {
+        width: 95%;
+    }
+
+    .part_2nd {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .part_2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
