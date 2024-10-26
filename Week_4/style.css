@@ -5,37 +5,3 @@
     margin: 0;
     font-family: "Bebas Neue";
 }
-
-.page1 {
-    height: 100vh;
-    width: 100%;
-    background-color: #FFFBF0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.navbar {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 2rem;
-}
-
-.nav1 {
-    display: flex;
-    margin: 0 4rem;
-}
-
-.nav2 a {
-    margin: 0 1.5rem;
-}
-
-.part1 {
-    width: 50%;
-}
-
-.part2 {
-    width: 50%;
-}
